@@ -57,3 +57,39 @@ img {
   display: block;
   margin: auto;
 }
+
+.lb-outerContainer {
+    border-radius:1px;
+}
+
+.lb-data .lb-details {
+    width: 85%;
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 1.1em;
+    font-weight: 200;
+  }
+
+  .lb-data .lb-number {
+    display: none;
+    clear: left;
+    padding-bottom: 1em;
+    padding-left:5px;
+    font-size: 12px;
+    color: #999;
+  }
+
+  .lb-data {
+      position: relative;
+  }
+
+  .lb-data .lb-close {
+    display: block;
+    position: absolute;
+    right: 6px;
+    top: -5px;
+    width: 30px;
+    height: 30px;
+
+}
