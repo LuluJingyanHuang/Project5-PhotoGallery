@@ -11,7 +11,6 @@
 
 .search-container input[type=text] {
       margin-top: 20px;
-      padding:10px 400px 10px 5px;
       font-size: 16px;
       max-width: 70%;
 
@@ -21,6 +20,7 @@
     margin: auto;
 
 }
+
 
 }
 /* .search-container button{

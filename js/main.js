@@ -29,7 +29,7 @@ function getID() {
 
           }
 }
-
+getele
 document.getElementById("search").addEventListener("keyup", getID);
 
 //
