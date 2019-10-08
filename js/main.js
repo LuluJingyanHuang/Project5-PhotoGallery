@@ -16,9 +16,11 @@ function getID() {
         console.log(match1);
         if (match === true){
           image.style.display= '';
+          long.style.display= '' ;
 
         } else if (match1 === true){
             image.style.display= '';
+            long.style.display= '' ;
             console.log(match1);
         }else {
           image.style.display = 'none';

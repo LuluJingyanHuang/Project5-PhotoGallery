@@ -4,22 +4,32 @@
 .search-container {
       text-align: center;
       position: relative;
+      margin: auto;
 }
+
+
 
 .search-container input[type=text] {
       margin-top: 20px;
       padding:10px 400px 10px 5px;
       font-size: 16px;
+      max-width: 70%;
+
+}
+.main{
+    max-width: 90%;
+    margin: auto;
 
 }
 
-.search-container button{
+}
+/* .search-container button{
       padding: 6px 10px;
       background: #ddd;
       font-size: 17px;
       border: none;
       cursor: pointer;
-}
+} */
 
 .search-container button:hover {
   background: #ccc;
@@ -50,11 +60,12 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   margin: 40px auto 0;
   max-width: 70%;
+  padding-left: 20px;
 }
 
 img {
   padding-bottom: 30px;
-  display: block;
+  display: inline-block;
   margin: auto;
 }
 
